@@ -79,8 +79,6 @@ UV_DOSE_RESPONSE_CSV  <- raw("plot-data.csv")                                   
 
 ## Laboratory microbiology ----------------------------------------------------
 LAB_MESSUNGEN_CSV     <- raw("20241111_DigiWave_Labormessungen.csv")             # Laboratory.R
-ZULAUF_KA_CSV         <- raw("ZulaufKA.csv")                                     # preValidation.R
-ABLAUF_UV_CSV         <- raw("AblaufUV.csv")                                     # preValidation.R
 
 ## Eurofins lab-report PDFs (folder of dated subfolders) ---------------------
 EUROFINS_DIR          <- raw("Eurofins")                                         # read_pruefbericht.R
