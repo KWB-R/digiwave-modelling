@@ -1,5 +1,8 @@
 # DigiWave — Predictive UV-dose control for wastewater disinfection (public release)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21882515.svg)](https://doi.org/10.5281/zenodo.21882515)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Reduce the energy of the effluent **UV disinfection** stage by dosing to demand:
 predict the E. coli concentration entering the UV unit from plant sensor signals,
 combine it with a UV **dose–response** relation, back-calculate the **minimum dose**
@@ -56,3 +59,11 @@ Pearson 0.80); best7 (RMSE 0.30, R² 0.28); best4of7 is too sparse (R² −0.23)
 
 R packages: `tidyverse, data.table, zoo, quantregForest, Metrics, rstanarm,
 lubridate, gridExtra`.
+
+## Citation
+
+Seis, W. (2026). *DigiWave — Predictive UV-dose control for wastewater
+disinfection.* Kompetenzzentrum Wasser Berlin. https://doi.org/10.5281/zenodo.21882515
+
+The DOI above always resolves to the latest release. To cite this specific
+version, use https://doi.org/10.5281/zenodo.21882516.
