@@ -65,5 +65,5 @@ lubridate, gridExtra`.
 Seis, W. (2026). *DigiWave — Predictive UV-dose control for wastewater
 disinfection.* Kompetenzzentrum Wasser Berlin. https://doi.org/10.5281/zenodo.21882515
 
-The DOI above always resolves to the latest release. To cite this specific
-version, use https://doi.org/10.5281/zenodo.21882516.
+The DOI above always resolves to the latest release. Version-specific DOIs are
+listed under "Versions" on the [Zenodo record](https://doi.org/10.5281/zenodo.21882515).
