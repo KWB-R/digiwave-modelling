@@ -1,0 +1,4 @@
+"model","n_vars","RMSE_inlet","R2_inlet","Pearson_inlet","N_days_inlet","Pearson_UV","N_UV"
+"bestR2",11,0.25,0.51,0.795,13,0.356,20
+"best7",6,0.303,0.282,0.801,13,0.326,20
+"best4of7",3,0.397,-0.233,0.017,13,0.365,20

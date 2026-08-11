@@ -1,0 +1,16 @@
+# Tooling / OS cruft
+.claude/
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+Rplots.pdf
+
+# Defensive: never allow raw sensor data or secret coefficients into the public repo
+**/ModelInput*.Rdata
+**/klaerwerk*.csv
+**/Klaerwerk*.csv
+**/*.anon_coeffs*
+*.sqlite
+sink.prod.db
