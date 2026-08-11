@@ -1,0 +1,25 @@
+{
+  "title": "DigiWave — Predictive UV-dose control for wastewater disinfection",
+  "description": "R code, anonymized data, and fitted models for predictive UV-dose control of an effluent UV disinfection stage. The workflow predicts the E. coli concentration entering the UV unit from wastewater-treatment-plant sensor signals, combines it with a UV dose–response relation to back-calculate the minimum dose meeting the discharge limit, and quantifies the energy saving versus a constant dose.",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Seis, Wolfgang",
+      "affiliation": "Kompetenzzentrum Wasser Berlin"
+    }
+  ],
+  "keywords": [
+    "wastewater treatment",
+    "UV disinfection",
+    "Escherichia coli",
+    "quantile random forest",
+    "dose-response",
+    "energy efficiency",
+    "water quality prediction",
+    "R"
+  ],
+  "notes": "Plant sensor features are anonymized by a per-variable affine transform whose coefficients are withheld, and the fitted models are transformed with the same map, so predictions reproduce without exposing raw plant measurements. E. coli measurements, timestamps, and the UV dose-response are real and unchanged."
+}
